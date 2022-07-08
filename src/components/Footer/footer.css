@@ -1,0 +1,53 @@
+.footer {
+  background-color: rgb(5, 54, 100);
+  color: #fff;
+}
+
+.wrapper {
+  margin-block: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper ul {
+  list-style-type: none;
+}
+
+.wrapper ul li {
+  margin-bottom: 1.5rem;
+}
+
+.wrapper ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.wrapper ul li a:hover {
+  color: rgb(29, 29, 170);
+}
+
+.wrapper span {
+  padding-left: 1rem;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social i {
+  border: 1px solid white;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social .fa-facebook-f {
+  padding: 0.5rem 0.7rem;
+}
+
+.social i:hover {
+  color: blue;
+}

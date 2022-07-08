@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.nav__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav__list li {
+  margin-inline: 2rem;
+}
+
+.nav__list li a {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}

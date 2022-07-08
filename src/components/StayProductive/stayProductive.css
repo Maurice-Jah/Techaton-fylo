@@ -1,0 +1,46 @@
+.stayProductive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.stayProductive-text p {
+  /* margin-block: 1rem; */
+  font-weight: 500;
+}
+
+.stayProductive-img img {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.testimonial {
+  font-size: 0.9rem;
+  width: 60%;
+  padding: 1.3rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 1px 4px 5px 4px #ddd;
+}
+
+.testimonial-1 {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-block: 1rem;
+}
+
+.testimonial-1 img {
+  width: 20%;
+  height: 20%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial-1 p {
+  /* margin-top: -1rem; */
+}

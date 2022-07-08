@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero__side1 p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-block: 1rem;
+}
+
+.hero__inputs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero__side2 img {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  color: rgb(39, 162, 167);
+}
+
+input:focus {
+  outline: none;
+}
