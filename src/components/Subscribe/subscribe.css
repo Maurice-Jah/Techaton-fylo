@@ -26,3 +26,19 @@
 input {
   margin-bottom: 1rem;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 400px) {
+  .subscribe {
+    flex-direction: column;
+  }
+
+  .subscribe-text {
+    width: 100%;
+  }
+
+  .subscribe-input input {
+    min-width: 300px !important;
+  }
+}

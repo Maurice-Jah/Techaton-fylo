@@ -33,3 +33,32 @@
 input:focus {
   outline: none;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 400px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__inputs {
+    flex-direction: column;
+    display: block;
+  }
+  .hero__inputs input {
+    min-width: 100% !important;
+  }
+  .hero__side1 {
+    order: 1;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .hero__side1 p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}

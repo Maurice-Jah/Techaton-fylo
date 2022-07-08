@@ -69,3 +69,20 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 400px) {
+  .stayProductive {
+    flex-direction: column;
+  }
+
+  .stayProductive span {
+    justify-content: center;
+  }
+  .testimonial {
+    width: 100%;
+    word-spacing: normal;
+    margin-block: 5rem;
+  }
+}

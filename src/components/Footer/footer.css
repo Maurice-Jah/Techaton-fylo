@@ -57,3 +57,25 @@
 .social i:hover {
   color: #6975c1;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .subscribe-text {
+    width: 100%;
+  }
+
+  .footer-contact,
+  .link1,
+  .link2 {
+    margin-bottom: 2rem;
+  }
+
+  .social {
+    justify-content: center;
+  }
+}

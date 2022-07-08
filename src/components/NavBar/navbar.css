@@ -20,3 +20,24 @@ nav {
   text-decoration: none;
   color: #63626f;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 400px) {
+  nav {
+    padding: 0.5rem;
+  }
+
+  nav img {
+    width: 5rem;
+    display: block;
+  }
+
+  .nav__list li {
+    margin-inline: 0;
+  }
+
+  .nav__list li a {
+    font-size: 0.8rem;
+  }
+}
