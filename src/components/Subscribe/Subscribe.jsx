@@ -26,7 +26,7 @@ const Subscribe = () => {
           padding={"0.9rem 1rem"}
           cursor={"pointer"}
           border={"none"}
-          bgColor={"rgb(39, 162, 167)"}
+          bgColor={"#2F65F9"}
           color={"#fff"}
           br={"3px"}
         />

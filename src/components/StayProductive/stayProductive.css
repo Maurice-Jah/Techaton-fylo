@@ -6,10 +6,20 @@
 }
 
 .stayProductive-text p {
-  /* margin-block: 1rem; */
   font-weight: 500;
 }
 
+.stayProductive span {
+  display: flex;
+  align-items: center;
+}
+.stayProductive span img {
+  padding-left: 0.3rem;
+}
+
+.stayProductive a {
+  color: #87bdb2;
+}
 .stayProductive-img img {
   width: 100%;
   -o-object-fit: contain;
@@ -39,8 +49,4 @@
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: 50%;
-}
-
-.testimonial-1 p {
-  /* margin-top: -1rem; */
 }

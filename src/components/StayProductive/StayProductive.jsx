@@ -2,6 +2,7 @@ import React from "react";
 import css from "./stayProductive.css";
 import avatar from "../../images/avatar-testimonial.jpg";
 import productive_img from "../../images/illustration-2.svg";
+import arrow from "../../images/icon-arrow.svg";
 
 const StayProductive = () => {
   return (
@@ -17,7 +18,9 @@ const StayProductive = () => {
           for live collavoration. No email attachments required!
         </p>
 
-        <a href="">See how Fylo works</a>
+        <span>
+          <a href="#">See how Fylo works</a> <img src={arrow} alt="arrow-img" />
+        </span>
         <article className="testimonial">
           <p>
             Fylo has improved our team productivity by an order of magnitude.

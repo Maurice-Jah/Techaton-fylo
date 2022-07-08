@@ -10,13 +10,13 @@ nav {
 }
 
 .nav__list li {
-  margin-inline: 2rem;
+  margin-inline: 1rem;
 }
 
 .nav__list li a {
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
-  color: #000;
+  color: #63626f;
 }
