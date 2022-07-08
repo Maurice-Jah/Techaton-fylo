@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero__side1">
-        <h1>All your files in secure location, accessible anywhere.</h1>
+        <h1>All your files in one secure location, accessible anywhere.</h1>
         <p>
           Fylo stores your most important files in one secure location. Access
           them whenever you need, share and collaborate with friends, family and

@@ -3,6 +3,7 @@ import css from "./stayProductive.css";
 import avatar from "../../images/avatar-testimonial.jpg";
 import productive_img from "../../images/illustration-2.svg";
 import arrow from "../../images/icon-arrow.svg";
+import quote from "../../images/icon-quotes.svg";
 
 const StayProductive = () => {
   return (
@@ -22,6 +23,7 @@ const StayProductive = () => {
           <a href="#">See how Fylo works</a> <img src={arrow} alt="arrow-img" />
         </span>
         <article className="testimonial">
+          <img src={quote} alt="quote-img" />
           <p>
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled

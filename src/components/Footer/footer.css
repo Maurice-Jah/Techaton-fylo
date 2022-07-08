@@ -1,6 +1,6 @@
 .footer {
-  background-color: #07043B;
-  color: #fff
+  background-color: #07043b;
+  color: #dedef8;
 }
 
 .wrapper {
@@ -18,17 +18,22 @@
 }
 
 .wrapper ul li a {
-  color: #fff;
+  color: #dedef8;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 .wrapper ul li a:hover {
-  color: rgb(29, 29, 170);
+  color: #6975c1;
 }
 
 .wrapper span {
   padding-left: 1rem;
+}
+
+.footer-contact p {
+  margin-bottom: 1rem;
 }
 
 .social {
@@ -42,6 +47,7 @@
   width: 100%;
   border-radius: 50%;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .social .fa-facebook-f {
@@ -49,5 +55,5 @@
 }
 
 .social i:hover {
-  color: blue;
+  color: #6975c1;
 }

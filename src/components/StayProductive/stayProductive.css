@@ -3,15 +3,29 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  background-image: url(../../images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .stayProductive-text p {
   font-weight: 500;
 }
 
+.stayProductive-text h1 {
+  margin-bottom: 2rem;
+}
+
+.stayProductive-text h1 + p {
+  margin-bottom: 1rem;
+}
+
 .stayProductive span {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  padding-bottom: 0.2rem;
+  padding-top: 1rem;
+  border-bottom: 2px solid #87bdb2;
 }
 .stayProductive span img {
   padding-left: 0.3rem;
@@ -19,7 +33,9 @@
 
 .stayProductive a {
   color: #87bdb2;
+  text-decoration: none;
 }
+
 .stayProductive-img img {
   width: 100%;
   -o-object-fit: contain;
@@ -27,7 +43,8 @@
 }
 
 .testimonial {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  word-spacing: 0.3rem;
   width: 60%;
   padding: 1.3rem;
   padding-top: 2rem;
@@ -35,7 +52,9 @@
   border-radius: 5px;
   box-shadow: 1px 4px 5px 4px #ddd;
 }
-
+.testimonial img {
+  width: 1rem;
+}
 .testimonial-1 {
   display: flex;
   align-items: center;

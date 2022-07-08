@@ -4,15 +4,23 @@
   justify-content: space-between;
   gap: 5rem;
   background-color: #575989;
-  color: #fff
+  color: #fff;
+}
+
+.subcribe-text__heading {
+  font-size: 1.8rem;
 }
 
 .subscribe-text {
-  width: 35%;
+  width: 40%;
 }
 
 .subscribe-text h1 {
   margin-bottom: 1rem;
+}
+
+.subcribe-text__sub {
+  color: #dbdfee;
 }
 
 input {
